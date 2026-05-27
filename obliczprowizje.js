@@ -10,7 +10,7 @@ const {
 
 module.exports = (client) => {
 
-    const CHANNEL_ID = "1509272463832383553";
+    const CHANNEL_ID = "1509272463832383552";
 
     let selectedType = {};
     let selectedFrom = {};
@@ -19,14 +19,14 @@ module.exports = (client) => {
     // CUSTOM EMOJI
     // =====================
 
-    const EMOJI_BLIK = "<:blik:1499784231608389742>";
-    const EMOJI_PAYPAL = "<:paypal:1499784258091483236>";
-    const EMOJI_CRYPTO = "<:crypto:1499784635201224724>";
-    const EMOJI_LTC = "<:ltc:1499784285211726014>";
+    const EMOJI_BLIK = "<:blik:1509274100110196826>";
+    const EMOJI_PAYPAL = "<:paypal:1509274183186776096>";
+    const EMOJI_CRYPTO = "<:crypto:1509274112726663250>";
+    const EMOJI_LTC = "<:ltc:1509274125464764608>";
 
-    const EMOJI_MONEY = "<a:money:1501685438103031920>";
-    const EMOJI_BOX = "<:box:1500243849535033577>";
-    const EMOJI_ARROW = "<a:Arrow_White:1508094625984811038>";
+    const EMOJI_MONEY = "<a:money:1509274139444379751>";
+    const EMOJI_BOX = "<:box:1509273927850135783>";
+    const EMOJI_ARROW = "<a:Arrow_White:1509273554787500143>";
 
     // =====================
     // PROWIZJE
@@ -169,7 +169,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "BLIK",
                             value: "BLIK",
                             emoji: {
-                                id: "1499784231608389742",
+                                id: "1509274100110196826",
                                 name: "blik"
                             }
                         },
@@ -177,7 +177,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "KOD BLIK",
                             value: "KODBLIK",
                             emoji: {
-                                id: "1499784231608389742",
+                                id: "1509274100110196826",
                                 name: "blik"
                             }
                         },
@@ -185,7 +185,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "PAYPAL",
                             value: "PAYPAL",
                             emoji: {
-                                id: "1499784258091483236",
+                                id: "1509274183186776096",
                                 name: "paypal"
                             }
                         },
@@ -193,7 +193,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "LTC",
                             value: "LTC",
                             emoji: {
-                                id: "1499784285211726014",
+                                id: "1509274125464764608",
                                 name: "ltc"
                             }
                         },
@@ -201,7 +201,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "CRYPTO",
                             value: "CRYPTO",
                             emoji: {
-                                id: "1499784635201224724",
+                                id: "1509274112726663250",
                                 name: "crypto"
                             }
                         }
@@ -230,7 +230,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "BLIK",
                             value: "BLIK",
                             emoji: {
-                                id: "1499784231608389742",
+                                id: "1509274100110196826",
                                 name: "blik"
                             }
                         },
@@ -238,7 +238,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "KOD BLIK",
                             value: "KODBLIK",
                             emoji: {
-                                id: "1499784231608389742",
+                                id: "1509274100110196826",
                                 name: "blik"
                             }
                         },
@@ -246,7 +246,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "PAYPAL",
                             value: "PAYPAL",
                             emoji: {
-                                id: "1499784258091483236",
+                                id: "1509274183186776096",
                                 name: "paypal"
                             }
                         },
@@ -254,7 +254,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "LTC",
                             value: "LTC",
                             emoji: {
-                                id: "1499784285211726014",
+                                id: "1509274125464764608",
                                 name: "ltc"
                             }
                         },
@@ -262,7 +262,7 @@ ${EMOJI_BOX} Kliknij menu poniżej.
                             label: "CRYPTO",
                             value: "CRYPTO",
                             emoji: {
-                                id: "1499784635201224724",
+                                id: "1509274112726663250",
                                 name: "crypto"
                             }
                         }

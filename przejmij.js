@@ -12,7 +12,7 @@ module.exports = (client) => {
   const EMOJI = {
 
     warning:
-      "<:warning:1501693444030992395>",
+      "<:warning:1509273867863068702>",
 
     zap:
       "<:zap:1509273899920265379>",

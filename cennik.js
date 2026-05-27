@@ -13,28 +13,28 @@ module.exports = (client) => {
   // EMOJI
   // ========================
   const EMOJI_SPOTIFY = "<:Spotify:1500238701718933627>";
-  const EMOJI_NETFLIX = "<:Netflix:1500238788306403398>";
-  const EMOJI_YT = "<:ytpremium:1500239415937859605>";
-  const EMOJI_HBO = "<:HBOmax:1500239251143524464>";
+  const EMOJI_NETFLIX = "<:Netflix:1509273851983565013>";
+  const EMOJI_YT = "<:ytpremium:1509274214899912854>";
+  const EMOJI_HBO = "<:HBOmax:1509273765245092043>";
 
-  const EMOJI_NITRO = "<a:nitro:1501684762601848963>";
-  const EMOJI_CRUNCHY = "<:crunchyroll:1501686424158605463>";
-  const EMOJI_DISNEY = "<:disney:1501686870025699449>";
-  const EMOJI_MONEY = "<a:money:1501685438103031920>";
+  const EMOJI_NITRO = "<a:nitro:1509274169336926238>";
+  const EMOJI_CRUNCHY = "<:crunchyroll:1509273659909607536>";
+  const EMOJI_DISNEY = "<:disney:1509273702238261449>";
+  const EMOJI_MONEY = "<a:money:1509274139444379751>";
 
   const EMOJI_PIN = "<:pin:1509273884279705800>";
   const EMOJI_ZAP = "<:zap:1509273899920265379>";
   const EMOJI_LOCK = "<:lock:1509274087447593070>";
 
-  const EMOJI_PRIME = "<:primevideo:1502001410311716984>";
-  const EMOJI_CHATGPT = "<:chatgpt:1502001751019094097>";
-  const EMOJI_CAPCUT = "<:capcut:1502002116405887039>";
+  const EMOJI_PRIME = "<:primevideo:1509274200597201108>";
+  const EMOJI_CHATGPT = "<:chatgpt:1509273474571702302>";
+  const EMOJI_CAPCUT = "<:capcut:1509273687667380305>";
 
   const EMOJI_NORD = "<:nordvpn:1501999409343369400>";
   const EMOJI_MULLVAD = "<:mullvad:1501999834159255712>";
   const EMOJI_TUNNEL = "<:tunnelbear:1502000450009042984>";
 
-  const EMOJI_CDA = "<:cda:1508077411873325076>";
+  const EMOJI_CDA = "<:cda:1509273634957692939>";
 
   // ========================
   // PANEL
@@ -70,12 +70,12 @@ ${EMOJI_MONEY} Najlepsze ceny
           {
             label: "NITRO",
             value: "nitro",
-            emoji: { id: "1501684762601848963", name: "nitro" }
+            emoji: { id: "1509274169336926238", name: "nitro" }
           },
           {
             label: "STREAMING",
             value: "streaming",
-            emoji: { id: "1500238788306403398", name: "Netflix" }
+            emoji: { id: "1509273851983565013", name: "Netflix" }
           },
           {
             label: "VPN",

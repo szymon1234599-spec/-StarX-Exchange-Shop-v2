@@ -20,8 +20,8 @@ module.exports = (client) => {
   // EMOJI
   // ===============================
   const EMOJI_STAKE = "<:stake:1500238567564378142>";
-  const EMOJI_MONEY = "<a:money:1501685438103031920>";
-  const EMOJI_BOX = "<:box:1500243849535033577>";
+  const EMOJI_MONEY = "<a:money:1509274139444379751>";
+  const EMOJI_BOX = "<:box:1509273927850135783>";
   const EMOJI_PIN = "<:pin:1509273884279705800>";
   const EMOJI_ZAP = "<:zap:1509273899920265379>";
   const EMOJI_LOCK = "<:lock:1509274087447593070>";
@@ -64,12 +64,12 @@ ${EMOJI_BOX} Aktualny stock: **${stock} sztuk**`
           {
             label: "Zobacz cenę",
             value: "price",
-            emoji: { id: "1501685438103031920", name: "money" }
+            emoji: { id: "1509274139444379751", name: "money" }
           },
           {
             label: "Dostępne sztuki",
             value: "stock",
-            emoji: { id: "1500243849535033577", name: "box" }
+            emoji: { id: "1509273927850135783", name: "box" }
           }
         ]);
 

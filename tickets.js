@@ -17,7 +17,7 @@ module.exports = (client) => {
   // =========================================
   // CONFIG
   // =========================================
-  const PANEL_CHANNEL_ID = "1509272463672868901";
+  const PANEL_CHANNEL_ID = "1499512781861556314";
   const REALIZATOR_ROLE_ID = "1500930428993933373";
 
   // =========================================
@@ -35,25 +35,25 @@ module.exports = (client) => {
   // =========================================
   const EMOJI = {
 
-    arrow: "<a:arrow:1508094625984811038>",
+    arrow: "<a:arrow:1509273554787500143>",
 
-    list: "<:list:1501693215328440370>",
-    admin: "<:admin:1501989271077388500>",
-    warning: "<:warning:1501693444030992395>",
-    cart: "<:cart:1500243849535033577>",
+    list: "<:list:1509273791925194892>",
+    admin: "<:admin:1509273605857345606>",
+    warning: "<:warning:1509273867863068702>",
+    cart: "<:cart:1509273927850135783>",
     zap: "<:zap:1509273899920265379>",
     ticket: "<:ticket:1501697124734206032>",
-    clock: "<:clock:1502030015943151868>",
+    clock: "<:clock:1509273674903982151>",
     lock: "<:lock:1509274087447593070>",
-    support: "<:support:1500243961124618381>",
+    support: "<:support:1509274057613512936>",
     pin: "<:pin:1509273884279705800>",
-    money: "<a:money:1501685438103031920>",
+    money: "<a:money:1509274139444379751>",
     middleman: "<:middleman:1509273805434912980>",
 
-    blik: "<:blik:1499784231608389742>",
-    paypal: "<:paypal:1499784258091483236>",
-    ltc: "<:ltc:1499784285211726014>",
-    crypto: "<:crypto:1499784635201224724>"
+    blik: "<:blik:1509274100110196826>",
+    paypal: "<:paypal:1509274183186776096>",
+    ltc: "<:ltc:1509274125464764608>",
+    crypto: "<:crypto:1509274112726663250>"
   };
 
   // =========================================
@@ -103,21 +103,21 @@ module.exports = (client) => {
             label: "Wymiana waluty",
             description: "Wymiana metod płatności",
             value: "exchange",
-            emoji: { id: "1500243849535033577" }
+            emoji: { id: "1509273927850135783" }
           },
 
           {
             label: "Zakup",
             description: "Kupno produktu/usługi",
             value: "buy",
-            emoji: { id: "1500243849535033577" }
+            emoji: { id: "1509273927850135783" }
           },
 
           {
             label: "Pomoc",
             description: "Wsparcie administracji",
             value: "help",
-            emoji: { id: "1500243961124618381" }
+            emoji: { id: "1509274057613512936" }
           },
 
           {
@@ -314,10 +314,10 @@ module.exports = (client) => {
           .setCustomId("exchange_from")
           .setPlaceholder("Z CZEGO")
           .addOptions([
-            { label: "BLIK", value: "BLIK", emoji: { id: "1499784231608389742" } },
-            { label: "PAYPAL", value: "PAYPAL", emoji: { id: "1499784258091483236" } },
-            { label: "CRYPTO", value: "CRYPTO", emoji: { id: "1499784635201224724" } },
-            { label: "LTC", value: "LTC", emoji: { id: "1499784285211726014" } }
+            { label: "BLIK", value: "BLIK", emoji: { id: "1509274100110196826" } },
+            { label: "PAYPAL", value: "PAYPAL", emoji: { id: "1509274183186776096" } },
+            { label: "CRYPTO", value: "CRYPTO", emoji: { id: "1509274112726663250" } },
+            { label: "LTC", value: "LTC", emoji: { id: "1509274125464764608" } }
           ]);
 
       const toMenu =
@@ -325,10 +325,10 @@ module.exports = (client) => {
           .setCustomId("exchange_to")
           .setPlaceholder("NA CO")
           .addOptions([
-            { label: "BLIK", value: "BLIK", emoji: { id: "1499784231608389742" } },
-            { label: "PAYPAL", value: "PAYPAL", emoji: { id: "1499784258091483236" } },
-            { label: "CRYPTO", value: "CRYPTO", emoji: { id: "1499784635201224724" } },
-            { label: "LTC", value: "LTC", emoji: { id: "1499784285211726014" } }
+            { label: "BLIK", value: "BLIK", emoji: { id: "1509274100110196826" } },
+            { label: "PAYPAL", value: "PAYPAL", emoji: { id: "1509274183186776096" } },
+            { label: "CRYPTO", value: "CRYPTO", emoji: { id: "1509274112726663250" } },
+            { label: "LTC", value: "LTC", emoji: { id: "1509274125464764608" } }
           ]);
 
       const createButton =
