@@ -13,11 +13,11 @@ module.exports = (client) => {
     legit: "✅",
     calc: "🧮",
 
-    exchange: "<:exchange:1509273733838274712>",
+    exchange: "<:exchange:1508159193792647248>",
 
-    users: "<:users:1509273805434912980>",
+    users: "<:users:1509273733838274712>",
 
-    green: "<a:green:1509273749487226911>",
+    green: "<a:green:1501990166082879538>",
     zap: "<:zap:1509273899920265379>",
     pin: "<:pin:1509273884279705800>",
     lock: "<:lock:1509274087447593070>"
@@ -55,11 +55,11 @@ module.exports = (client) => {
 `> Jesteś **${memberCount}** osobą na serwerze 🔥`,
 ``,
 `## ${EMOJI.pin} Ważne kanały`,
-`> ${EMOJI.exchange} Wymiany — <#1499513009188376767>`,
-`> ${EMOJI.ticket} Tickety — <#1499512781861556314>`,
-`> ${EMOJI.legit} Legit Check — <#1499519884860854505>`,
-`> ⭐ Opinie — <#1499519935657935049>`,
-`> ${EMOJI.calc} Kalkulator — <#1509272463832383552>`,
+`> ${EMOJI.exchange} Wymiany — <#1509272463672868901>`,
+`> ${EMOJI.ticket} Tickety — <#1509272463484129385>`,
+`> ${EMOJI.legit} Legit Check — <#1509272463672868897>`,
+`> ⭐ Opinie — <#1509272463672868899>`,
+`> ${EMOJI.calc} Kalkulator — <#1509272463672868899>`,
 ``,
 `## ${EMOJI.lock} Weryfikacja`,
 `> Wejdź na <#1509272463484129383>`,

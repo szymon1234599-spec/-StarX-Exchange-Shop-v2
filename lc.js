@@ -12,8 +12,8 @@ module.exports = (client) => {
     // =====================================
     // CONFIG
     // =====================================
-    const LEGIT_CHANNEL_ID = "1500893110048133253";
-    const STAFF_ROLE_ID = "1500930428993933373";
+    const LEGIT_CHANNEL_ID = "1509272463672868897";
+    const STAFF_ROLE_ID = "1509272462922354899";
     const TICKET_ACCESS_ROLE_ID = "1502020178026696744";
 
     // =====================================

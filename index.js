@@ -18,7 +18,7 @@ const TOKEN = process.env.TOKEN;
 const CLIENT_ID = "1499478004265517396";
 const GUILD_ID = "1499481942394146946";
 
-const OWNER_ROLE_ID = "1499499185337012377";
+const OWNER_ROLE_ID = "1509272462934802476";
 
 // =====================================
 // CLIENT

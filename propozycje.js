@@ -11,7 +11,7 @@ module.exports = (client) => {
 
   const EMOJI = {
     pin: "<:pin:1509273884279705800>",
-    green: "<a:green:1509273749487226911>"
+    green: "<a:green:1501990166082879538>"
   };
 
   client.on(Events.MessageCreate, async (message) => {

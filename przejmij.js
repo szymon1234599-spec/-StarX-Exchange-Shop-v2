@@ -7,7 +7,7 @@ const {
 module.exports = (client) => {
 
   const REALIZATOR_ROLE_ID =
-    "1500930428993933373";
+    "1509272462922354899";
 
   const EMOJI = {
 

@@ -7,7 +7,7 @@ const {
 
 module.exports = async (client) => {
 
-  const CHANNEL_ID = "1499513009188376767";
+  const CHANNEL_ID = "1509272463672868901";
 
   // ==========================
   // CUSTOM EMOJI

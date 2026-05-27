@@ -17,8 +17,8 @@ module.exports = (client) => {
   // =========================================
   // CONFIG
   // =========================================
-  const PANEL_CHANNEL_ID = "1499512781861556314";
-  const REALIZATOR_ROLE_ID = "1500930428993933373";
+  const PANEL_CHANNEL_ID = "1509272463484129385";
+  const REALIZATOR_ROLE_ID = "1509272462922354899";
 
   // =========================================
   // COLOR (DODANE)
@@ -48,7 +48,7 @@ module.exports = (client) => {
     support: "<:support:1509274057613512936>",
     pin: "<:pin:1509273884279705800>",
     money: "<a:money:1509274139444379751>",
-    middleman: "<:middleman:1509273805434912980>",
+    middleman: "<:middleman:1509273733838274712>",
 
     blik: "<:blik:1509274100110196826>",
     paypal: "<:paypal:1509274183186776096>",
@@ -124,7 +124,7 @@ module.exports = (client) => {
             label: "Middleman",
             description: "Usługa pośrednika",
             value: "middleman",
-            emoji: { id: "1509273805434912980" }
+            emoji: { id: "1509273733838274712" }
           }
         ])
     );

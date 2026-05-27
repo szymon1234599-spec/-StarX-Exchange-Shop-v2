@@ -10,7 +10,7 @@ const {
 
 module.exports = (client) => {
 
-    const CHANNEL_ID = "1509272463832383552";
+    const CHANNEL_ID = "1509272463672868899";
 
     let selectedType = {};
     let selectedFrom = {};

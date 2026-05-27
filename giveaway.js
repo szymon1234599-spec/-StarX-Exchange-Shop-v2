@@ -11,17 +11,17 @@ const {
 module.exports = (client) => {
 
     const GIVEAWAY_CHANNEL_ID = "1502022020487970948";
-    const REQUIRED_ROLE_ID = "1499521304146083954";
+    const REQUIRED_ROLE_ID = "1509272462922354896";
 
     const EMOJI = {
-        gift: "<:gift:1509273778801217707>",
+        gift: "<:gift:1502025560606507048>",
         pin: "<:pin:1509273884279705800>",
         zap: "<:zap:1509273899920265379>",
         lock: "<:lock:1509274087447593070>",
         time: "<:time:1509273674903982151>",
-        users: "<:users:1509273805434912980>",
-        green: "<a:green:1509273749487226911>",
-        red: "<a:red:1509273912553246950>"
+        users: "<:users:1509273733838274712>",
+        green: "<a:green:1501990166082879538>",
+        red: "<a:red:1501989543182864535>"
     };
 
     const participants = new Map(); // giveawayId -> Set(users)

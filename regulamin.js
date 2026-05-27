@@ -3,7 +3,7 @@ const { EmbedBuilder, Events } = require("discord.js");
 
 module.exports = (client) => {
 
-  const CHANNEL_ID = "1499573020321124412";
+  const CHANNEL_ID = "1509272463672868897";
 
   async function sendPanel() {
     try {

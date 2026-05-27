@@ -5,11 +5,11 @@ module.exports = (client) => {
   // =========================
   // CONFIG
   // =========================
-  const CHANNEL_ID = "1500893110048133253"; // kanał rep
-  const TARGET_ROLE_ID = "1499572498604363918";
+  const CHANNEL_ID = "1509272463672868897"; // kanał rep
+  const TARGET_ROLE_ID = "1509272462922354897";
 
-  const LEGIT_CHANNEL_ID = "1499519884860854505";
-  const OPINIE_CHANNEL_ID = "1499519935657935049";
+  const LEGIT_CHANNEL_ID = "1509272463672868897";
+  const OPINIE_CHANNEL_ID = "1509272463672868899";
 
   let panelMessage = null;
 
