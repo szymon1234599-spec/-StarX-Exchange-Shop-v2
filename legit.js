@@ -8,7 +8,7 @@ const {
 
 module.exports = (client) => {
 
-  const CHANNEL_ID = "1509272463672868897";
+  const CHANNEL_ID = "1499519884860854505";
 
   let yesVotes = 10;
   let noVotes = 1;
@@ -28,7 +28,7 @@ module.exports = (client) => {
         .setColor("#2b2d31")
         .setTitle("🌟 StarX Exchange » CZY JESTEŚMY LEGIT")
         .setDescription(
-`<a:1509274073518313623:1509274073518313623> Jeśli uważasz, że **TAK**, kliknij przycisk poniżej.
+`<a:1499784353012514917:1499784353012514917> Jeśli uważasz, że **TAK**, kliknij przycisk poniżej.
 
 <a:1499784378992295956:1499784378992295956> Jeśli uważasz, że **NIE**, kliknij przycisk poniżej.
 
@@ -42,7 +42,7 @@ module.exports = (client) => {
       const row = new ActionRowBuilder().addComponents(
         new ButtonBuilder()
           .setCustomId("legit_yes")
-          .setEmoji("1509274073518313623")
+          .setEmoji("1499784353012514917")
           .setLabel(`${yesVotes}`)
           .setStyle(ButtonStyle.Secondary),
 
@@ -92,7 +92,7 @@ module.exports = (client) => {
       .setColor("#2b2d31")
       .setTitle("🌟 StarX Exchange » CZY JESTEŚMY LEGIT")
       .setDescription(
-`<a:1509274073518313623:1509274073518313623> Jeśli uważasz, że **TAK**, kliknij przycisk poniżej.
+`<a:1499784353012514917:1499784353012514917> Jeśli uważasz, że **TAK**, kliknij przycisk poniżej.
 
 <a:1499784378992295956:1499784378992295956> Jeśli uważasz, że **NIE**, kliknij przycisk poniżej.
 
@@ -106,7 +106,7 @@ module.exports = (client) => {
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setCustomId("legit_yes")
-        .setEmoji("1509274073518313623")
+        .setEmoji("1499784353012514917")
         .setLabel(`${yesVotes}`)
         .setStyle(ButtonStyle.Secondary),
 

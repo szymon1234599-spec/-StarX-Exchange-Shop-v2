@@ -3,7 +3,7 @@ const { EmbedBuilder, Events } = require("discord.js");
 
 module.exports = (client) => {
 
-  const CHANNEL_ID = "1509272463672868897";
+  const CHANNEL_ID = "1509272462934802480";
 
   async function sendPanel() {
     try {
@@ -12,7 +12,7 @@ module.exports = (client) => {
 
       const embed = new EmbedBuilder()
         .setColor("#5865F2")
-        .setTitle("<:regulamin:1509273791925194892> StarX Exchange • Regulamin")
+        .setTitle("<:regulamin:1501693215328440370> StarX Exchange • Regulamin")
         .setDescription(`
 ━━━━━━━━━━━━━━━━━━━━━━━  
 <:pinezka:1509273884279705800> **POSTANOWIENIA OGÓLNE**
@@ -22,7 +22,7 @@ module.exports = (client) => {
 3. Administracja nie jest stroną żadnej transakcji.  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
-<:koszyk:1509273927850135783> **TRANSAKCJE I WYMIANY**
+<:koszyk:1500243849535033577> **TRANSAKCJE I WYMIANY**
 
 4. Wszystkie transakcje są dobrowolne między użytkownikami.  
 5. Administracja nie ponosi odpowiedzialności za straty.  
@@ -33,7 +33,7 @@ module.exports = (client) => {
 10. Zakazuje się marnowania czasu sprzedającemu oraz celowego przeciągania transakcji.  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
-<:zegarek:1509273674903982151> **GWARANCJA NA KONTA**
+<:zegarek:1502030015943151868> **GWARANCJA NA KONTA**
 
 11. Gwarancja na konto obowiązuje przez 1 dzień od zakupu.  
 12. Konto nie musi posiadać polskiego regionu ani polskich danych.  
@@ -72,7 +72,7 @@ module.exports = (client) => {
 33. Zakaz publikowania treści NSFW.  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
-<:admin:1509273605857345606> **SPORY I DECYZJE**
+<:admin:1501989271077388500> **SPORY I DECYZJE**
 
 34. W przypadku sporów wymagane są dowody (screeny, logi, nagrania).  
 35. Administracja może odmówić pomocy w przypadku złamania regulaminu.  
@@ -80,14 +80,14 @@ module.exports = (client) => {
 37. Naruszenie zasad skutkuje karą (mute / kick / ban).  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
-<:wsparcie:1509274057613512936> **POSTANOWIENIA KOŃCOWE**
+<:wsparcie:1500243961124618381> **POSTANOWIENIA KOŃCOWE**
 
 38. Regulamin może ulec zmianie w dowolnym momencie.  
 39. Nieznajomość regulaminu nie zwalnia z jego przestrzegania.  
 40. Kupując produkt, użytkownik akceptuje ryzyko związane z cyfrowymi usługami i kontami.  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
-<:uwaga:1509273867863068702> **Zachowaj ostrożność — unikaj podejrzanych transakcji.**
+<:uwaga:1501693444030992395> **Zachowaj ostrożność — unikaj podejrzanych transakcji.**
         `)
         .setFooter({
           text: "© 2026 StarX Exchange"

@@ -10,8 +10,8 @@ module.exports = (client) => {
   // ===============================
   // CONFIG
   // ===============================
-  const CHANNEL_ID = "1509272463672868903";
-  const ADMIN_ROLE = "1509272462934802476";
+  const CHANNEL_ID = "1499812157246669001";
+  const ADMIN_ROLE = "1499499185337012377";
 
   let stock = 4;
   let panelMessageId = null;
@@ -19,9 +19,9 @@ module.exports = (client) => {
   // ===============================
   // EMOJI
   // ===============================
-  const EMOJI_STAKE = "<:stake:1509274214899912854>";
+  const EMOJI_STAKE = "<:stake:1500238567564378142>";
   const EMOJI_MONEY = "<a:money:1509274139444379751>";
-  const EMOJI_BOX = "<:box:1509273927850135783>";
+  const EMOJI_BOX = "<:box:1500243849535033577>";
   const EMOJI_PIN = "<:pin:1509273884279705800>";
   const EMOJI_ZAP = "<:zap:1509273899920265379>";
   const EMOJI_LOCK = "<:lock:1509274087447593070>";
@@ -69,7 +69,7 @@ ${EMOJI_BOX} Aktualny stock: **${stock} sztuk**`
           {
             label: "Dostępne sztuki",
             value: "stock",
-            emoji: { id: "1509273927850135783", name: "box" }
+            emoji: { id: "1500243849535033577", name: "box" }
           }
         ]);
 

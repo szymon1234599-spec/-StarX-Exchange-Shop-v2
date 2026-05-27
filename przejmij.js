@@ -7,12 +7,12 @@ const {
 module.exports = (client) => {
 
   const REALIZATOR_ROLE_ID =
-    "1509272462922354899";
+    "1500930428993933373";
 
   const EMOJI = {
 
     warning:
-      "<:warning:1509273867863068702>",
+      "<:warning:1501693444030992395>",
 
     zap:
       "<:zap:1509273899920265379>",

@@ -11,8 +11,8 @@ const {
 
 module.exports = (client) => {
 
-  const PANEL_CHANNEL_ID = "1509272463672868899";
-  const OPINIE_CHANNEL_ID = "1509272463672868899";
+  const PANEL_CHANNEL_ID = "1499519935657935049";
+  const OPINIE_CHANNEL_ID = "1499519935657935049";
 
   let panelMessage = null;
 
